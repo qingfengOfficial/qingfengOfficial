@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.6" stop-color="#101c2e"/>
+      <stop offset="1" stop-color="#0a1428"/>
+    </linearGradient>
+    <linearGradient id="gr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4dd0e1"/>
+      <stop offset="1" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#gr)"/>
+  <circle cx="1002" cy="90" r="120" fill="#00bcd4" opacity="0.06"/>
+  <circle cx="1080" cy="140" r="70" fill="#4dd0e1" opacity="0.05"/>
+  <!-- Logo 圆 -->
+  <circle cx="190" cy="200" r="92" fill="#0e232b" stroke="#00bcd4" stroke-width="3"/>
+  <!-- 风线 -->
+  <path d="M150,180 C174,146 234,126 278,138 C300,144 318,158 318,176 C318,194 302,202 282,198 C262,194 252,182 268,170" fill="none" stroke="#4dd0e1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M138,212 C160,188 210,176 244,184 C258,187 270,198 262,210 C254,222 230,222 222,210" fill="none" stroke="#80deea" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+  <path d="M162,242 C182,226 220,218 244,224 C254,227 262,234 256,242" fill="none" stroke="#b2ebf2" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- 盾牌 -->
+  <path d="M160,300 C200,276 250,268 270,300 L262,340 C230,356 190,356 158,340 Z" fill="none" stroke="#4dd0e1" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M212,284 L200,320 L212,308 L224,322 Z" fill="#ffffff" opacity="0.9"/>
+  <text x="360" y="175" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="#ffffff">清风提权工具箱</text>
+  <text x="362" y="215" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#80deea" letter-spacing="2">QINGFENG PRIVILEGE KIT</text>
+  <text x="362" y="270" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#a8c7cf">RISC-V? No. ARM64 / MediaTek · KernelSU · GhostLock</text>
+  <text x="362" y="296" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#7f9aa5">抓包调试 · 提权工具 · 安全研究面板</text>
+</svg>
